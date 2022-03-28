@@ -21,7 +21,7 @@ class futurepro extends StatelessWidget {
             }
           else
           {
-            return Center(child: Text("${snapshot.data}"),);
+            return Center(child: Text("${snapshot.data  }"),);
           }
         },);
       },
